@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Arithmtico-Enhancing knowledge through calculations</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Whisper&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://kit.fontawesome.com/34dbda8e0a.js" crossorigin="anonymous">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+ <link rel=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+  <div class="container-fluid" id="nav">
+    <nav class="navbar bg-body-light" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" id="size1">
+          <img src="download (8).png" alt="signs" width="50" height="50" class="d-inline-block align-text-top">
+          Home
+        </a>
+        <a class="navbar-brand" href="calculator.html" id="size2">
+          Calculator
+        </a>
+
+        <a class="navbar-brand" href="https://poki.com/en/g/arithmetica" id="size3">
+          Games
+        </a>
+        <img src="download (28).jfif" alt="signs" width="50" height="50" class="d-inline-block align-text-top">
+        <img src="download (29).jfif" alt="signs" width="50" height="50" class="d-inline-block align-text-top">
+        <img src="download (30).jfif" alt="signs" width="50" height="50" class="d-inline-block align-text-top">
+
+
+      </div>
+    </nav>
+  </div>
+<br>
+  <hr>
+
+  <p>
+  <h1 class="whisper-regular">
+
+    Arithmetico
+  </h1>
+  </p>
+
+  <img id="float1" src="download (9).png" alt="stars" height="100" width="100">
+  <img id="float2" src="download (9).png" alt="stars" height="100" width="100">
+
+
+
+  <p class="whisper-regular">Enhancing Knowledge Through Calculations</p>
+
+  <hr>
+
+
+  <div class="container" id="calculator">
+    <div class="container" id="calc2">
+    <div class="row">
+      <div class="col-12 color1">
+        <input type="text" name="result" id="result" class="result"  value="" placeholder="Result"
+
+        Result
+        <hr>
+      </div>
+
+      <div class="row">
+        <div class="col-3">
+
+          <button class="number" value="1" onclick="setScreenValue('1')">1</button>
+        </div>
+        <div class="col-3">
+          <button class="number"  value="2" onclick="setScreenValue('2')">2</button>
+        </div>
+        <div class="col-3">
+          <button class="number"  value="3" onclick="setScreenValue('3')">3</button>
+        </div>
+        <div class="col-3">
+          <button class="operator"  value="CLEAR" onclick="clearScreen('AC')">AC</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-3">
+          <button class="number"  value="4" onclick="setScreenValue('4')">4</button>
+        </div>
+        <div class="col-3">
+          <button class="number"  value="5" onclick="setScreenValue('5')">5</button>
+        </div>
+        <div class="col-3">
+          <button class="number"  value="6" onclick="setScreenValue('6')">6</button>
+        </div>
+        <div class="col-3">
+          <button class="operator"  value="+" onclick="setScreenValue('+')">+</button>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-3">
+          <button class="number"  value="7" onclick="setScreenValue('7')">7</button>
+        </div>
+        <div class="col-3">
+          <button class="number"  value="9" onclick="setScreenValue('9')">9</button>
+        </div>
+        <div class="col-3">
+         <button class="number"  value="8" onclick="setScreenValue('8')">8</button>
+        </div>
+        <div class="col-3">
+          <button class="operator"  value="-" onclick="setScreenValue('-')">-</button>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-3">
+          <button class="number"  value="0" onclick="setScreenValue('0')">0</button>
+         
+        </div>
+        <div class="col-3">
+          <button class="operator"  value="*" onclick="setScreenValue('*')">*</button>
+        </div>
+        <div class="col-3">
+          <button class="operator"  value="(" onclick="setScreenValue('(')">(</button>
+        </div>
+        <div class="col-3">
+          <button class="operator"  value=")" onclick="setScreenValue(')')">)</button>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-3">
+          <button class="operator"  value="/" onclick="setScreenValue('/')">/</button>
+        </div>
+        <div class="col-3"><button class="operator"  value="%" onclick="setScreenValue('/100')">%</button>
+        </div>
+        <div class="col-3"><button class="operator"  value="=" onclick="calculateResult('=')">=</button>
+        </div>
+      </div>
+
+    
+      <div class="row">
+        <div class="col-12">
+          <b class="color"><p class="color">This is a basic calculator only understanding few syntaxes</p></b>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+      <b class="color">     <p class="color">Created by Arithmetico</p></b>
+        </div>
+      </div>
+      
+      
+    </div>
+    </div>
+  </div>
+  
+
+    <p class="center1">Want to use a Real time calculator click the button</p>
+    <button class="center1 btn btn-outline-danger
+      "><a href="https://www.online-calculator.com/">Real Calculator</a></button>
+
+
+      <footer>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-8 bg-success">
+           <h3> <b><p>Get connected with us on social networks</p></b></h3>
+          </div>
+          <div class="col-4 bg-success">
+            <i class="fa-brands fa-google  google" ></i>
+            <i class="fa-brands fa-youtube youtube" ></i>
+            <i class="fa-brands fa-instagram instagram"></i>
+            <i class="fa-brands fa-facebook facebook"></i>
+            <i class="fa-brands fa-linkedin linkedin"></i>
+
+
+          </div>
+        </div>
+
+
+
+        <div class="row">
+
+          <div class="col-3">
+             <img id="float3" src="download (8).png" alt="signs" width="200" height="200" class="d-inline-block align-text-top">
+          </div>
+          <div class="col-3">
+            <br>
+
+
+         <b>  <h2> <p class="under">Company Name</p></h2></b>
+            <br>
+            <br>
+
+          <b> <h1> <p>Here we help to increase childrn's Knowledge with the help of math calculations, thus increasing their level of IQ</p></h1></b>
+          </div>
+    <br>
+          <div class="col-3">
+          </div>
+
+          <div class="col-1">
+            <br>
+       <h2>  <b>   <p class="under">Products</p></b></h2>
+
+        <h1>  <b>  <p>Home page</p></b></h1>
+
+
+          <b> <h1> <p>Calculator</p></h1></b>
+
+
+         <p>  <b> <p>Games</p></b></p>
+
+
+           <h1></h1><b> <p>All available on navbar above</p></b><h1></h1>
+            <br>
+            </div>
+
+          <div class="col-2">
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-3">
+          </div>
+          <div class="col-3">
+           <h2></h2><h2> <p class="under">Useful links</p></h2></b>
+            <br>
+          <h1><b>  <p><a href="https://www.youthop.com/competitions#google_vignette">Competitions
+            </a></p></b></h1>
+           <br>
+          <h1><b>  <p><a href="https://www.google.com">Search more on google for more math calculations</a></p></b></h1>
+        <br>
+          <h1><b>  <p><a href="https://www.youtube.com">Watch more videos</a></p></b></h1>
+            <br>
+          <h1><b>  <p><a href="https://www.calculator.net/">Basic Calculator</a></p></b></h1>
+          </div>
+
+          <div class="col-3">
+          </div>
+
+          <div class="col-1">
+            <h2><b><p class="under">Contacts</p></b></h2>
+
+          <h1><b><p> <i class="fa-solid fa-house"></i> Nihort,Ibadan,Nigeria.</p></h1></b>
+
+            <p><h1><b><i class="fa-solid fa-envelope"></i> imranbalpro@gmail.com</b></h1></p>
+
+            <p><h1><b><i class="fa-solid fa-phone"></i> +234 7013599741</b></h1></p>
+
+            <p><h1><b><i class="fa-duotone fa-solid fa-phone"></i><a href = "tel: +234 7013599741">+234 7013599741</a></b></h1></p>
+
+          </div>
+          <div class="col-2">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <p><h1><b>2024 Copyright MD: Imran Balogun</b></h1></p>
+          </div>
+        </div>
+
+
+
+
+      </div>
+      </footer>
+    
+    
+     <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    
+</body>
+</html>

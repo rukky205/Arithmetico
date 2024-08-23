@@ -1,0 +1,210 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#row10 {
+  background-color: #A9A9A9;
+  color: black;
+}
+
+#row11 {
+  background-color: #A9A9A9;
+  color: black;
+}
+
+#row8 {
+  background-color: #F5F5DC;
+}
+
+.vertical-line {
+  border-left: 2px solid black;
+  /* Adjust thickness and color as needed */
+  height: 200px;
+  /* Adjust height as needed */
+}
+
+#row3 {
+  background-color: #A9A9A9;
+  color: white;
+}
+
+#row7 {
+  background-color: #A9A9A9;
+  color: white;
+}
+
+#row6 {
+  background-color: #A9A9A9;
+  color: black
+}
+
+#row5 {
+
+  background-color: #A9A9A9;
+
+
+  color: black;
+}
+
+
+
+
+
+
+footer {
+  background-color: darkgray;
+}
+
+.google{
+  margin-right: 30px;
+  font-size: 30px;
+}
+
+.youtube{
+  margin-right: 30px;
+  font-size: 30px;
+}
+
+
+
+#calculator{
+  background-image: url("download\ \(39\).jfif");
+  background-repeat: no-repeat;
+  width: 1900px;
+
+  height: 550px;
+  background-size: cover;
+  background-color: black;
+}
+
+.number {
+  color: white;
+  margin-left: 13px;
+  height: 40px;
+  width: 90px;
+  margin-top: 9px;
+ 
+  background-color: darkgray;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.color{
+        color: white;
+}
+
+#calc2 {
+  width: 500px;
+  height: 550px;
+  background-color: black;
+}
+
+.operator:active,
+.number:active {
+  font-size: 20px;
+ 
+}
+
+.result{
+          width: 450px;
+          height: 100px;
+          text-align: right;
+          padding-right: 15px;
+  font-size: 30px;
+  background-color: lightgray;
+  
+}
+
+.operator {
+
+  color: white;
+  height: 40px;
+  margin-left: 13px;
+  margin-top: 15px;
+  width: 90px;
+ 
+  background-color: darkgray;
+  margin-bottom: 9px;
+  font-size: 20px;
+}
+
+.facebook{
+  margin-right: 30px;
+  font-size: 30px;
+}
+
+.instagram{
+  margin-right: 30px;
+  font-size: 30px;
+}
+
+.linkedin{
+  margin-right: 30px;
+  font-size: 30px;
+}
+
+#float3{
+        float: left;
+   margin-top: 40px;
+}
+
+
+.under {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #FFFFE0;
+
+}
+
+* {
+  text-align: center;
+  font-size: 18px;
+}
+
+#size1 {
+  font-size: 29px;
+}
+
+#size2 {
+  font-size: 29px;
+}
+
+#row2 {
+  background-color: #A9A9A9;
+  color: white;
+}
+
+#row1 {
+  background-color: #A9A9A9;
+  color: white;
+}
+
+#size3 {
+  font-size: 29px;
+}
+
+
+.whisper-regular {
+  font-family: "Whisper", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 70px;
+}
+
+#nav {
+  background-color: #D3D3D3;
+  position: fixed;
+  z-index: 1;
+}
+
+#float1 {
+  float: left;
+}
+
+#float2 {
+  float: right;
+}
